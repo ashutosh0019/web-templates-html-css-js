@@ -1,0 +1,17 @@
+/* On screens that are 992px or less, set the background color to blue */
+
+@media screen and (max-width: 992px) {}
+
+
+/* On screens that are 600px or less, set the background color to olive */
+
+@media screen and (max-width: 400px) {
+    .content-part-image {
+        width: auto;
+        height: auto;
+        box-shadow: 0 0 20px 0 hsla(308, 85%, 32%, 0.774);
+    }
+    .content-body-part {
+        flex-direction: column;
+    }
+}
